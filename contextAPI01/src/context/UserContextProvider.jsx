@@ -8,7 +8,7 @@ import UserContext from "./UserContext";
 //const [user, setUser] = React.useState(null)
 //kun value lai access garne value prop...obj ni dinah milxa
 //value={{user, setUser}} mathi access lai throw in garne
-
+//variable rah methd ajai majale samjanunah deko 
 const UserContextProvider = ({children}) => {
   const [user, setUser] = React.useState(null)
   return(
